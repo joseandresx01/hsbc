@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSBC</title>
+    <script src="https://kit.fontawesome.com/b8ffa30c57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="cuerpo">
+    <div class="centro">
+        <div class="seccion1">
+            <form id="creditCardForm">
+                <label for="cname"><b>Card name</b></label><br>
+                <input type="text" class="nombrecarta" id="nombreT" name="cname" value="Give this card a name"><br>
+                <div class="tarjeta">
+                    <img src="img/tarjeta.png" alt="">
+                </div>
+                <div class="lado">
+                    <div>
+                        <label for="fname"><b>First name</b></label><br>
+                        <input type="text" class="primernombre" id="nombre" name="fname" value="Name on card"><br>
+                    </div>
+                    <div>
+                        <label for="lname"><b>Surname</b></label><br>
+                        <input type="text" class="primernombre" id="apellido" name="lname" value="Surname on card "><br>
+                    </div>
+                </div>
+                <div class="numerotarjeta">
+                    <label for="numero"><b>Card number</b></label><br>
+                    <img src="img/master.png" alt="">
+                    <input type="text" class="contraseña" id="numero" name="numero" maxlength="16" minlength="16" value="•••• •••• •••• ••••"><br><br>
+                </div>
+                <div class="lado">
+                    <div>
+                        <label for="months"><b>Months</b></label><br>
+                        <select class="contrase" id="months" name="months">
+                            <option value="Select">Select</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="year"><b>Year</b></label><br>
+                        <select class="contrase" id="year" name="year">
+                            <option value="Select">Select</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                        </select>
+                    </div>
+                    <div class="cevece">
+                        <label for="cvc"><b>CVC</b></label><br>
+                        <img src="img/warning.png" alt="">
+                        <input type="text" class="contrase" id="cvc" name="cvc" maxlength="3" minlength="3" value="•••"><br><br>
+                    </div>
+                </div>
+            </form>
+            <div class="enter">
+                <button type="submit" class="boton" id="envia">
+                    <h1><a class="a" href="login.html">Enter</a></h1>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

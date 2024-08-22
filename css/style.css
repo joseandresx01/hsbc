@@ -1,0 +1,108 @@
+.cuerpo{
+    background-color:rgba(64, 64, 64, 1);
+    font-family: sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion1{
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(210, 213, 218);
+}
+.nombrecarta{
+    border-radius: 10px;
+    border: 1px solid rgb(210, 213, 218);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 211px;
+}
+.lado{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.numerotarjeta{
+    margin-top: 20px;
+    position: relative;
+}
+.numerotarjeta img{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 7px;
+}
+.tarjeta{
+    margin-top: 20px;
+}
+/* .datos{
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+} */
+.primernombre{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 9px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 213, 218);
+}
+.contraseña{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 211px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 213, 218);
+}
+/* .seleccion{
+    display: flex;
+    gap: 10px;
+} */
+/* .meses{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 213, 218);
+} */
+.contrase{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px; 
+    padding-right: 17px; 
+    border-radius: 10px; 
+    border: 1px solid rgb(210, 213, 218);
+}
+.cevece{
+    position: relative;
+}
+.cevece img{
+    position: absolute;
+    margin-left: 153px;
+    margin-top: 10px;
+}
+/* .enter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.boton{
+    background-color: rgb(225, 40, 40);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 160px;
+    padding-right: 160px;
+}

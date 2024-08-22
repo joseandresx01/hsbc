@@ -1,0 +1,73 @@
+.cuerpo{
+    background-color:rgba(64, 64, 64, 1);
+    font-family: sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.color{
+    color: red;
+}
+.espacio{
+    margin-top: 10px;
+}
+.imagenes{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.or{
+    color:rgb(207, 207, 207);
+}
+.imagen form{
+    position: relative;
+}
+.imagen img{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+.seccion2{
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(210, 213, 218);
+}
+.imagenes{
+    display: flex;
+    gap: 10px;
+}
+.marco{
+    border: 2px solid rgb(210, 213, 218);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+.nombre{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding-right: 213px; 
+    border-radius: 10px; 
+    border: 1px solid rgb(210, 213, 218);
+}
+.boton{
+    margin-top: 40px;
+    background-color: rgb(225, 40, 40);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
